@@ -5,7 +5,6 @@
         </x-slot>
 
         <x-validation-errors class="mb-4" />
-install composer
         <form method="POST" action="{{ route('register') }}">
             @csrf
 

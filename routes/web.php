@@ -28,3 +28,14 @@ Route::middleware([
 });
 
 Route::get('redirects' ,'App\Http\Controllers\HomeController@index');
+
+// routes/web.php
+Route::get('/index', 'YourController@index')->name('index');
+
+Route::get('/shopping-cart', function () {
+    return view('shopping-cart'); // Replace 'shopping-cart' with the actual view name
+});
+
+Route::get('/shopping-cart', function () {
+    return view('shopping-cart');
+})->name('shopping-cart');

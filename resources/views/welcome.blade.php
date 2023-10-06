@@ -1592,7 +1592,7 @@
                             <img src="assets/images/1.jpg" alt="product image">
                         </div>
                         <div class="product-btns">
-                            <button type="button" class="btn-buy"><a href="https://supplementfactory.lk/"> buy
+                            <button type="button" class="btn-buy"><a href="{{ route('shopping-cart') }}"> buy
                                     now
                                 </a>
                                 <span><i class="fas fa-shopping-cart"></i></span>
@@ -1921,6 +1921,11 @@
     </div>
 
     </div>
+
+
+
+
+
 
     <!-- ... (footer content) ... -->
     <footer class="footer">
